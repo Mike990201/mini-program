@@ -1,0 +1,112 @@
+page {
+    background-color: #edece8;
+  }
+.user_info_warp{
+    height: 45vh;
+    overflow: hidden;
+    background-color: var(--themeColor);
+    position: relative;
+}
+.user_img_warp{
+    position: relative;
+}
+.bg{
+    height: 50vh;
+    filter:blur(10rpx);
+}
+.user_info{
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_info .usericon{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+}
+.user_info .username{
+    color: white;
+    margin-top: 40rpx;
+    font-size: 40rpx;
+}
+.userLogin{
+    position: absolute;
+    font-size: 38rpx;
+    border: 1rpx solid greenyellow;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    border-radius: 10rpx;
+    padding: 30rpx;
+    color: greenyellow;
+}
+.main{
+    position: relative;
+}
+.main .content{
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40rpx;
+    color: #666;
+    padding-bottom: 100rpx;
+}
+.main .content .history_warp{
+    background-color: white;
+    display: flex;
+}
+.main .content .history_warp navigator{
+flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.history_warp .hist_num{
+    color: var(--themeColor);
+}
+.orders_wrap .orders_title{
+    padding: 20rpx;
+    border: solid 1rpx #ccc;
+}
+.orders_wrap{
+    background-color: #fff;
+    margin-top: 30rpx;
+}
+.order_content{
+    display: flex;
+}
+.order_content navigator{
+    padding: 15rpx 0;
+    flex: 1;
+    text-align: center;
+}
+.order_content navigator .iconfont{
+    color: var(--themeColor);
+  font-size: 40rpx;
+}
+.address{
+    margin-top: 30rpx;
+    background-color: white;
+    padding: 20rpx;
+}
+.app_info_wrap{
+    margin-top: 30rpx;
+    background-color: white;
+    /* padding: 20rpx; */
+}
+.app_info_wrap .info_item{
+    /* margin-top: 20rpx; */
+    border-bottom: solid 1px #ccc;
+    padding: 20rpx;
+}
+.app_info_wrap .info_contact{
+    display: flex;
+    justify-content: space-between;
+}
+.recommend{
+    margin-top: 30rpx;
+    background-color: white;
+    padding: 20rpx;
+}
